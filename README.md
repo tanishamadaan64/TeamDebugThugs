@@ -18,8 +18,3 @@ This project is built with Node.js, Express, and Socket.IO. It allows users to j
 ### npm run dev
 
 
-## Acknowledgments
-
-- Thanks to the Socket.IO team for their amazing library.
-- Thanks to the creators of bad-words for the profanity filtering feature.
-
