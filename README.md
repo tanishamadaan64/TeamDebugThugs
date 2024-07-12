@@ -3,7 +3,7 @@
 ### Purva Batra
 ### Harsheen Grover
 
-This project is built with Node.js, Express, and Socket.IO. It allows users to join chat rooms, send messages, and share their location with others in the room. 
+This project allows users to join and create chat rooms, send and receive messages in realtime and also share their wishlist by single click of a button and share their location with others in the room. 
 
 ## Features
 
