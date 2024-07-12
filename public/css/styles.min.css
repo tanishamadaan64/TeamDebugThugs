@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+input {
+  font-size: 14px;
+}
+
+body {
+  line-height: 1.4;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #777;
+}
+
+input {
+  border: 1px solid #eee;
+  padding: 12px;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 12px;
+  background: rgb(255, 64, 108);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: rgb(255, 64, 108);
+}
+
+button:disabled {
+  cursor: default;
+  background: rgb(255, 64, 108);
+}
+
+.centered-form {
+  background: rgb(253, 238, 240);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-form__box {
+  background: #fff;
+  padding: 24px;
+  width: 320px;
+  height: 70%;
+}
+
+.centered-form button {
+  width: 100%;
+}
+
+.centered-form input {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.chat {
+  display: flex;
+}
+
+.chat__sidebar {
+  height: 100vh;
+  color: black;
+  font-weight: bold;
+  background: rgb(255, 238, 240);
+  width: 270px;
+  overflow-y: scroll;
+}
+
+.chat__main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  background-image: url("../img/myback.png");
+}
+
+#chat_main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  background-image: url('../img/myback.png');
+  /* Adjusted path to your image */
+  background-size: cover;
+  background-position: center;
+  background-color: #ffffff;
+  /* Fallback background color */
+}
+
+
+#send_button {
+  width: 120px;
+}
+
+#send_location {
+  width: 100px;
+}
+
+.chat__messages {
+  flex-grow: 1;
+  padding: 24px 24px 0;
+  overflow-y: scroll;
+
+  height: 100vh;
+  /* Example: Set height of the container */
+}
+
+.message {
+  margin-bottom: 16px;
+}
+
+.message__name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.message__meta {
+  color: #777;
+  font-size: 14px;
+}
+
+.message a {
+  color: #0070cc;
+}
+
+.compose {
+  display: flex;
+  flex-shrink: 0;
+  margin-top: 16px;
+  padding: 24px;
+}
+
+.compose form {
+  display: flex;
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.compose input {
+  border: 1px solid #eee;
+  width: 100%;
+  padding: 12px;
+  margin: 0 16px 0 0;
+  flex-grow: 1;
+}
+
+.compose button {
+  font-size: 14px;
+}
+
+.room-title {
+  font-weight: bold;
+  text-decoration: solid;
+  font-size: 22px;
+  background: rgb(255, 64, 108);
+  padding: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.list-title {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 4px;
+  padding: 12px 24px 0;
+}
+
+.users {
+  list-style-type: none;
+  font-weight: 300;
+  padding: 12px 24px 0;
+  text-transform: capitalize;
+}
+
+/* Default background */
+.default-background {
+  background-image: url('../img/active-listening.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Alternate background when message is sent */
+.message-sent-background {
+  background-image: url('../img/alternate-background.jpg');
+  /* Adjust path to your alternate image */
+  background-size: cover;
+  background-position: center;
+}
+
+#vc_button {
+  float: right;
+  margin-right: 20px;
+  /* Adjust margin as needed */
+  /* Additional styling to ensure proper display */
+  display: inline-block;
+  /* Ensures the button respects its width and margins */
+  text-align: center;
+  width: 120px;
+  margin-top: 7px;
+  margin-right: 7px;
+  border-radius: 10px;
+
+}
+
+#send-wishlist {
+  float: right;
+  margin-right: 20px;
+  /* Adjust margin as needed */
+  /* Additional styling to ensure proper display */
+  display: inline-block;
+  /* Ensures the button respects its width and margins */
+  text-align: center;
+  width: 120px;
+  margin-top: 7px;
+  margin-right: 7px;
+  border-radius: 10px;
+
+}
