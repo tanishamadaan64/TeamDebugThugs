@@ -14,6 +14,7 @@ This project allows users to join and create chat rooms, send and receive messag
 
 ## To Run The Code
 ### npm install
+### cd src
 ### node index.js
 ### npm run dev
 
