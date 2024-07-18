@@ -3,6 +3,7 @@
 ### Purva Batra
 ### Harsheen Grover
 
+## Project Overview
 This project allows users to join and create chat rooms, send and receive messages in realtime and also share their wishlist by single click of a button and share their location with others in the room. 
 
 ## Features
