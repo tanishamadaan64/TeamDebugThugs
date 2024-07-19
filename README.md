@@ -13,7 +13,7 @@ This project allows users to join and create chat rooms, send and receive messag
 - **User Management**: Users can join and leave chat rooms.
 
 
-## To Run The Code
+## To Run The Code :
 ### npm install
 ### cd src
 ### node index.js
